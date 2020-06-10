@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES2018",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "noFallthroughCasesInSwitch": true,
+        "composite": false,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "lib": ["dom", "ES2018", "esnext.asynciterable"],
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "strict": false,
+        "experimentalDecorators": true,
+        "rootDir": "app",
+        "importHelpers": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "app/types/*"
+            ]
+        },
+        "typeRoots": ["@types", "node_modules/@types", "jest"]
+    },
+    "include": [
+        "./app/**/*", "./app/**/*.ts", "./app/**/*.tsx"
+    ]
+  }
